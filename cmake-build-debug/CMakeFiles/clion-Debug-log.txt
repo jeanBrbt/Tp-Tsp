@@ -1,0 +1,4 @@
+C:\Users\barbe\AppData\Local\JetBrains\CLion2023.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/cygdrive/c/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/cygwin/x64/ninja.exe" -G Ninja -S "/cygdrive/d/Téléchargements/TSP2024 (1)" -B "/cygdrive/d/Téléchargements/TSP2024 (1)/cmake-build-debug"
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /cygdrive/d/Téléchargements/TSP2024 (1)/cmake-build-debug
