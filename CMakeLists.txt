@@ -17,5 +17,8 @@ add_executable(TSP2024 main.cpp
         src/Random.h
         src/Greedy.cpp
         src/Greedy.h
-        src/neighbourgs.cpp
-        src/neighbourgs.h)
+        src/Neighbourgs.h
+        src/SwapNeighbours.cpp
+        src/SwapNeighbours.h
+        src/InsertionNeighbours.cpp
+        src/InsertionNeighbours.h)

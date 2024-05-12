@@ -38,7 +38,8 @@ void Solution::shuffle() {
 void Solution::swap(int i, int j) {
     std::swap(this->villes[i], this->villes[j]);
 }
-void Solution::echange(int s )
+
+
 std::ostream& operator<<(std::ostream &os, const Solution &sol) {
     for (auto v : sol.getSolution()) {
         os << v << " ";
