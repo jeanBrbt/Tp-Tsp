@@ -3,10 +3,10 @@
 //
 #pragma once
 
-#include "Neighbourgs.h"
-
-class SwapNeighbours : public Neighbours {
+#include "neighbors.h"
+#include "Solution.h"
+class SwapNeighbours : public neighbors {
 public:
-    void operator()(Solution &_sol, EvalTSP &_eval, int index) override;
+    Solution operator()(Solution sol, int index) override;
     int numPossibleNeighbours(int size) const override;
 };

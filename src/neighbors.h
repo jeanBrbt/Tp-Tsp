@@ -3,10 +3,10 @@
 //
 #pragma once
 #include "Solver.h"
-
-class Neighbours : public Solver {
+#include "Solution.h"
+class neighbors /*: public Solver */{
 public:
-    virtual void operator()(Solution &_sol, EvalTSP &_eval, int index) = 0;
+    virtual Solution operator()(Solution sol, int index) = 0;
+
     virtual int numPossibleNeighbours(int size) const = 0;
-    virtual ~Neighbours() {}
 };

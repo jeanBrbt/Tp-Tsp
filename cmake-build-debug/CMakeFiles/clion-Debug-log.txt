@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\barbe\Tp-Tsp -B C:\Users\barbe\Tp-Tsp\cmake-build-debug
--- Configuring done (2.1s)
--- Generating done (0.8s)
--- Build files have been written to: C:/Users/barbe/Tp-Tsp/cmake-build-debug
+C:\Users\barbe\AppData\Local\JetBrains\CLion2023.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/cygdrive/c/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/cygwin/x64/ninja.exe" -G Ninja -S "/cygdrive/d/Téléchargements/TSP2024 (1)" -B "/cygdrive/d/Téléchargements/TSP2024 (1)/cmake-build-debug"
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /cygdrive/d/Téléchargements/TSP2024 (1)/cmake-build-debug

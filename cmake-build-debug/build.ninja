@@ -85,8 +85,26 @@ build CMakeFiles/TSP2024.dir/src/Greedy.cpp.o: CXX_COMPILER__TSP2024_unscanned_D
   OBJECT_DIR = CMakeFiles/TSP2024.dir
   OBJECT_FILE_DIR = CMakeFiles/TSP2024.dir/src
 
-build CMakeFiles/TSP2024.dir/src/neighbourgs.cpp.o: CXX_COMPILER__TSP2024_unscanned_Debug /cygdrive/d/Téléchargements/TSP2024$ (1)/src/neighbourgs.cpp || cmake_object_order_depends_target_TSP2024
-  DEP_FILE = CMakeFiles/TSP2024.dir/src/neighbourgs.cpp.o.d
+build CMakeFiles/TSP2024.dir/src/SwapNeighbours.cpp.o: CXX_COMPILER__TSP2024_unscanned_Debug /cygdrive/d/Téléchargements/TSP2024$ (1)/src/SwapNeighbours.cpp || cmake_object_order_depends_target_TSP2024
+  DEP_FILE = CMakeFiles/TSP2024.dir/src/SwapNeighbours.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/TSP2024.dir
+  OBJECT_FILE_DIR = CMakeFiles/TSP2024.dir/src
+
+build CMakeFiles/TSP2024.dir/src/InsertionNeighbours.cpp.o: CXX_COMPILER__TSP2024_unscanned_Debug /cygdrive/d/Téléchargements/TSP2024$ (1)/src/InsertionNeighbours.cpp || cmake_object_order_depends_target_TSP2024
+  DEP_FILE = CMakeFiles/TSP2024.dir/src/InsertionNeighbours.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/TSP2024.dir
+  OBJECT_FILE_DIR = CMakeFiles/TSP2024.dir/src
+
+build CMakeFiles/TSP2024.dir/src/TwoOptNeighbours.cpp.o: CXX_COMPILER__TSP2024_unscanned_Debug /cygdrive/d/Téléchargements/TSP2024$ (1)/src/TwoOptNeighbours.cpp || cmake_object_order_depends_target_TSP2024
+  DEP_FILE = CMakeFiles/TSP2024.dir/src/TwoOptNeighbours.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/TSP2024.dir
+  OBJECT_FILE_DIR = CMakeFiles/TSP2024.dir/src
+
+build CMakeFiles/TSP2024.dir/src/Localsearch.cpp.o: CXX_COMPILER__TSP2024_unscanned_Debug /cygdrive/d/Téléchargements/TSP2024$ (1)/src/Localsearch.cpp || cmake_object_order_depends_target_TSP2024
+  DEP_FILE = CMakeFiles/TSP2024.dir/src/Localsearch.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/TSP2024.dir
   OBJECT_FILE_DIR = CMakeFiles/TSP2024.dir/src
@@ -99,7 +117,7 @@ build CMakeFiles/TSP2024.dir/src/neighbourgs.cpp.o: CXX_COMPILER__TSP2024_unscan
 #############################################
 # Link the executable TSP2024.exe
 
-build TSP2024.exe: CXX_EXECUTABLE_LINKER__TSP2024_Debug CMakeFiles/TSP2024.dir/main.cpp.o CMakeFiles/TSP2024.dir/src/InstanceTSP.cpp.o CMakeFiles/TSP2024.dir/src/Solution.cpp.o CMakeFiles/TSP2024.dir/src/EvalTSP.cpp.o CMakeFiles/TSP2024.dir/src/Random.cpp.o CMakeFiles/TSP2024.dir/src/Greedy.cpp.o CMakeFiles/TSP2024.dir/src/neighbourgs.cpp.o
+build TSP2024.exe: CXX_EXECUTABLE_LINKER__TSP2024_Debug CMakeFiles/TSP2024.dir/main.cpp.o CMakeFiles/TSP2024.dir/src/InstanceTSP.cpp.o CMakeFiles/TSP2024.dir/src/Solution.cpp.o CMakeFiles/TSP2024.dir/src/EvalTSP.cpp.o CMakeFiles/TSP2024.dir/src/Random.cpp.o CMakeFiles/TSP2024.dir/src/Greedy.cpp.o CMakeFiles/TSP2024.dir/src/SwapNeighbours.cpp.o CMakeFiles/TSP2024.dir/src/InsertionNeighbours.cpp.o CMakeFiles/TSP2024.dir/src/TwoOptNeighbours.cpp.o CMakeFiles/TSP2024.dir/src/Localsearch.cpp.o
   FLAGS = -g
   LINK_FLAGS = -Wl,--enable-auto-import
   OBJECT_DIR = CMakeFiles/TSP2024.dir

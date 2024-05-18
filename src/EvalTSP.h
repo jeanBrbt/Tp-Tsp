@@ -5,6 +5,8 @@
 
 class EvalTSP {
 public:
+    EvalTSP();
+
     EvalTSP(InstanceTSP &_instanceTsp);
 
     float operator()(Solution &sol);

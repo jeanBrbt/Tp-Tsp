@@ -17,8 +17,15 @@ add_executable(TSP2024 main.cpp
         src/Random.h
         src/Greedy.cpp
         src/Greedy.h
-        src/Neighbourgs.h
+        src/neighbors.h
         src/SwapNeighbours.cpp
         src/SwapNeighbours.h
         src/InsertionNeighbours.cpp
-        src/InsertionNeighbours.h)
+        src/InsertionNeighbours.h
+        src/TwoOptNeighbours.cpp
+        src/TwoOptNeighbours.h
+        src/Localsearch.cpp
+        src/Localsearch.cpp
+        src/Localsearch.h
+        src/Localsearch.cpp
+        src/Localsearch.cpp)

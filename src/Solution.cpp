@@ -46,3 +46,10 @@ std::ostream& operator<<(std::ostream &os, const Solution &sol) {
     }
     return os;
 }
+void Solution::two_opt(int i, int j) {
+    while (i < j) {
+        this->swap(i, j);
+        i++;
+        j--;
+    }
+}

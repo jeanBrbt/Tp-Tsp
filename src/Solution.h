@@ -14,6 +14,7 @@ public:
     std::vector<int> getSolution() const;
     void shuffle();
     void swap(int i, int j);
+    void two_opt(int i, int j);
 protected:
     std::vector<int> villes;
 };
