@@ -28,4 +28,10 @@ add_executable(TSP2024 main.cpp
         src/Localsearch.cpp
         src/Localsearch.h
         src/Localsearch.cpp
-        src/Localsearch.cpp)
+        src/Localsearch.cpp
+        src/localsearchMethod/meilleureAmeliorante.cpp
+        src/localsearchMethod/meilleureAmeliorante.h
+        src/localsearchMethod/premiereAmeliorante.cpp
+        src/localsearchMethod/premiereAmeliorante.h
+        src/localsearchMethod/premiereAmelioranteAleatoire.cpp
+        src/localsearchMethod/premiereAmelioranteAleatoire.h)

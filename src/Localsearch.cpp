@@ -4,7 +4,7 @@
 
 #include <limits>
 #include "Localsearch.h"
-
+/*
 Solution Localsearch::meilleur_ameliorante(EvalTSP &evalTsp, Solution s, neighbors &methodeVoisinage) {
     Solution meilleure_solution = s;
     double meilleure_distance = evalTsp(s);
@@ -18,9 +18,9 @@ Solution Localsearch::meilleur_ameliorante(EvalTSP &evalTsp, Solution s, neighbo
     }
     return meilleure_solution;
 }
+*/
 
-
-Solution Localsearch::algorithme_descente(EvalTSP &evalTsp, Solution s, neighbors &methodeVoisinage) {
+Solution Localsearch::algorithme_descente(EvalTSP &evalTsp, Solution s, neighbors &methodeVoisinage,localsearchMethod &localsearchMethod) {
     Solution solution = s;
     double distance_solution = evalTsp(s);
     Solution meilleure_solution = s;
@@ -28,7 +28,8 @@ Solution Localsearch::algorithme_descente(EvalTSP &evalTsp, Solution s, neighbor
     while (meilleure_distance > distance_solution) {
         meilleure_solution = solution;
         meilleure_distance = distance_solution;
-        solution = meilleur_ameliorante(evalTsp, solution, methodeVoisinage);
+        solution = localsearchMethod(evalTsp, solution, methodeVoisinage);
+
         distance_solution = evalTsp(solution);
     }
     return meilleure_solution;

@@ -248,6 +248,30 @@ src/InstanceTSP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/InstanceTSP.cpp.s
 .PHONY : src/InstanceTSP.cpp.s
 
+src/Localsearch.obj: src/Localsearch.cpp.obj
+.PHONY : src/Localsearch.obj
+
+# target to build an object file
+src/Localsearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/Localsearch.cpp.obj
+.PHONY : src/Localsearch.cpp.obj
+
+src/Localsearch.i: src/Localsearch.cpp.i
+.PHONY : src/Localsearch.i
+
+# target to preprocess a source file
+src/Localsearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/Localsearch.cpp.i
+.PHONY : src/Localsearch.cpp.i
+
+src/Localsearch.s: src/Localsearch.cpp.s
+.PHONY : src/Localsearch.s
+
+# target to generate assembly for a file
+src/Localsearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/Localsearch.cpp.s
+.PHONY : src/Localsearch.cpp.s
+
 src/Random.obj: src/Random.cpp.obj
 .PHONY : src/Random.obj
 
@@ -320,6 +344,102 @@ src/SwapNeighbours.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/SwapNeighbours.cpp.s
 .PHONY : src/SwapNeighbours.cpp.s
 
+src/TwoOptNeighbours.obj: src/TwoOptNeighbours.cpp.obj
+.PHONY : src/TwoOptNeighbours.obj
+
+# target to build an object file
+src/TwoOptNeighbours.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/TwoOptNeighbours.cpp.obj
+.PHONY : src/TwoOptNeighbours.cpp.obj
+
+src/TwoOptNeighbours.i: src/TwoOptNeighbours.cpp.i
+.PHONY : src/TwoOptNeighbours.i
+
+# target to preprocess a source file
+src/TwoOptNeighbours.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/TwoOptNeighbours.cpp.i
+.PHONY : src/TwoOptNeighbours.cpp.i
+
+src/TwoOptNeighbours.s: src/TwoOptNeighbours.cpp.s
+.PHONY : src/TwoOptNeighbours.s
+
+# target to generate assembly for a file
+src/TwoOptNeighbours.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/TwoOptNeighbours.cpp.s
+.PHONY : src/TwoOptNeighbours.cpp.s
+
+src/localsearchMethod/meilleureAmeliorante.obj: src/localsearchMethod/meilleureAmeliorante.cpp.obj
+.PHONY : src/localsearchMethod/meilleureAmeliorante.obj
+
+# target to build an object file
+src/localsearchMethod/meilleureAmeliorante.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/localsearchMethod/meilleureAmeliorante.cpp.obj
+.PHONY : src/localsearchMethod/meilleureAmeliorante.cpp.obj
+
+src/localsearchMethod/meilleureAmeliorante.i: src/localsearchMethod/meilleureAmeliorante.cpp.i
+.PHONY : src/localsearchMethod/meilleureAmeliorante.i
+
+# target to preprocess a source file
+src/localsearchMethod/meilleureAmeliorante.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/localsearchMethod/meilleureAmeliorante.cpp.i
+.PHONY : src/localsearchMethod/meilleureAmeliorante.cpp.i
+
+src/localsearchMethod/meilleureAmeliorante.s: src/localsearchMethod/meilleureAmeliorante.cpp.s
+.PHONY : src/localsearchMethod/meilleureAmeliorante.s
+
+# target to generate assembly for a file
+src/localsearchMethod/meilleureAmeliorante.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/localsearchMethod/meilleureAmeliorante.cpp.s
+.PHONY : src/localsearchMethod/meilleureAmeliorante.cpp.s
+
+src/localsearchMethod/premiereAmeliorante.obj: src/localsearchMethod/premiereAmeliorante.cpp.obj
+.PHONY : src/localsearchMethod/premiereAmeliorante.obj
+
+# target to build an object file
+src/localsearchMethod/premiereAmeliorante.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/localsearchMethod/premiereAmeliorante.cpp.obj
+.PHONY : src/localsearchMethod/premiereAmeliorante.cpp.obj
+
+src/localsearchMethod/premiereAmeliorante.i: src/localsearchMethod/premiereAmeliorante.cpp.i
+.PHONY : src/localsearchMethod/premiereAmeliorante.i
+
+# target to preprocess a source file
+src/localsearchMethod/premiereAmeliorante.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/localsearchMethod/premiereAmeliorante.cpp.i
+.PHONY : src/localsearchMethod/premiereAmeliorante.cpp.i
+
+src/localsearchMethod/premiereAmeliorante.s: src/localsearchMethod/premiereAmeliorante.cpp.s
+.PHONY : src/localsearchMethod/premiereAmeliorante.s
+
+# target to generate assembly for a file
+src/localsearchMethod/premiereAmeliorante.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/localsearchMethod/premiereAmeliorante.cpp.s
+.PHONY : src/localsearchMethod/premiereAmeliorante.cpp.s
+
+src/localsearchMethod/premiereAmelioranteAleatoire.obj: src/localsearchMethod/premiereAmelioranteAleatoire.cpp.obj
+.PHONY : src/localsearchMethod/premiereAmelioranteAleatoire.obj
+
+# target to build an object file
+src/localsearchMethod/premiereAmelioranteAleatoire.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/localsearchMethod/premiereAmelioranteAleatoire.cpp.obj
+.PHONY : src/localsearchMethod/premiereAmelioranteAleatoire.cpp.obj
+
+src/localsearchMethod/premiereAmelioranteAleatoire.i: src/localsearchMethod/premiereAmelioranteAleatoire.cpp.i
+.PHONY : src/localsearchMethod/premiereAmelioranteAleatoire.i
+
+# target to preprocess a source file
+src/localsearchMethod/premiereAmelioranteAleatoire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/localsearchMethod/premiereAmelioranteAleatoire.cpp.i
+.PHONY : src/localsearchMethod/premiereAmelioranteAleatoire.cpp.i
+
+src/localsearchMethod/premiereAmelioranteAleatoire.s: src/localsearchMethod/premiereAmelioranteAleatoire.cpp.s
+.PHONY : src/localsearchMethod/premiereAmelioranteAleatoire.s
+
+# target to generate assembly for a file
+src/localsearchMethod/premiereAmelioranteAleatoire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TSP2024.dir\build.make CMakeFiles/TSP2024.dir/src/localsearchMethod/premiereAmelioranteAleatoire.cpp.s
+.PHONY : src/localsearchMethod/premiereAmelioranteAleatoire.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -344,6 +464,9 @@ help:
 	@echo ... src/InstanceTSP.obj
 	@echo ... src/InstanceTSP.i
 	@echo ... src/InstanceTSP.s
+	@echo ... src/Localsearch.obj
+	@echo ... src/Localsearch.i
+	@echo ... src/Localsearch.s
 	@echo ... src/Random.obj
 	@echo ... src/Random.i
 	@echo ... src/Random.s
@@ -353,6 +476,18 @@ help:
 	@echo ... src/SwapNeighbours.obj
 	@echo ... src/SwapNeighbours.i
 	@echo ... src/SwapNeighbours.s
+	@echo ... src/TwoOptNeighbours.obj
+	@echo ... src/TwoOptNeighbours.i
+	@echo ... src/TwoOptNeighbours.s
+	@echo ... src/localsearchMethod/meilleureAmeliorante.obj
+	@echo ... src/localsearchMethod/meilleureAmeliorante.i
+	@echo ... src/localsearchMethod/meilleureAmeliorante.s
+	@echo ... src/localsearchMethod/premiereAmeliorante.obj
+	@echo ... src/localsearchMethod/premiereAmeliorante.i
+	@echo ... src/localsearchMethod/premiereAmeliorante.s
+	@echo ... src/localsearchMethod/premiereAmelioranteAleatoire.obj
+	@echo ... src/localsearchMethod/premiereAmelioranteAleatoire.i
+	@echo ... src/localsearchMethod/premiereAmelioranteAleatoire.s
 .PHONY : help
 
 

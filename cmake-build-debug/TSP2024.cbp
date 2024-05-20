@@ -109,7 +109,10 @@
 		<Unit filename="C:/Users/barbe/Tp-Tsp/src/InstanceTSP.h">
 			<Option target="TSP2024"/>
 		</Unit>
-		<Unit filename="C:/Users/barbe/Tp-Tsp/src/Neighbourgs.h">
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/Localsearch.cpp">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/Localsearch.h">
 			<Option target="TSP2024"/>
 		</Unit>
 		<Unit filename="C:/Users/barbe/Tp-Tsp/src/Random.cpp">
@@ -131,6 +134,33 @@
 			<Option target="TSP2024"/>
 		</Unit>
 		<Unit filename="C:/Users/barbe/Tp-Tsp/src/SwapNeighbours.h">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/TwoOptNeighbours.cpp">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/TwoOptNeighbours.h">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/localsearchMethod/meilleureAmeliorante.cpp">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/localsearchMethod/meilleureAmeliorante.h">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/localsearchMethod/premiereAmeliorante.cpp">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/localsearchMethod/premiereAmeliorante.h">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/localsearchMethod/premiereAmelioranteAleatoire.cpp">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/localsearchMethod/premiereAmelioranteAleatoire.h">
+			<Option target="TSP2024"/>
+		</Unit>
+		<Unit filename="C:/Users/barbe/Tp-Tsp/src/neighbors.h">
 			<Option target="TSP2024"/>
 		</Unit>
 		<Unit filename="C:/Users/barbe/Tp-Tsp/CMakeLists.txt">

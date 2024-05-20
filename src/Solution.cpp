@@ -5,6 +5,7 @@
 #include <random>
 #include <algorithm>
 #include <ctime>
+#include <fstream>
 #include "Solution.h"
 
 Solution::Solution(InstanceTSP _i) {
@@ -52,4 +53,12 @@ void Solution::two_opt(int i, int j) {
         i++;
         j--;
     }
+}
+void Solution::save(std::string filename) {
+    std::ofstream
+    file(filename);
+    for (auto v: this->villes) {
+        file << v << " ";
+    }
+    file << std::endl;
 }

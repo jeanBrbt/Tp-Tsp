@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "InstanceTSP.h"
+#include <iostream>
 
 class Solution {
 public:
@@ -15,7 +16,8 @@ public:
     void shuffle();
     void swap(int i, int j);
     void two_opt(int i, int j);
-protected:
+    void save(std::string filename);
+        protected:
     std::vector<int> villes;
 };
 

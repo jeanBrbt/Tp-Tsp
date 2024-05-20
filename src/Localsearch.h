@@ -6,12 +6,13 @@
 #include <vector>
 #include "EvalTSP.h"
 #include "neighbors.h"
+#include "localsearchMethod/localSearchMethod.h"
 
 class Localsearch {
 public:
-    Solution meilleur_ameliorante(EvalTSP &evalTsp, Solution s,neighbors &methodeVoisinage);
+  //  Solution meilleur_ameliorante(EvalTSP &evalTsp, Solution s,neighbors &methodeVoisinage);
 
-    Solution algorithme_descente(EvalTSP &evalTsp, Solution s, neighbors &methodeVoisinage);
+    Solution algorithme_descente(EvalTSP &evalTsp, Solution s, neighbors &methodeVoisinage,localsearchMethod &localsearchMethod);
 };
 
 
